@@ -3,7 +3,7 @@ import React from 'react'
 function PortfolioPage() {
   return (
     <>
-     <section className="py-10 bg-black  text-yellow-500">
+     <section className=" bg-black  text-yellow-500">
         <img className='mx-auto' src="/flower-removebg-preview.png" alt="" style={{height:"200px ", width:"200px"}} />
             <h2 className="text-3xl font-bold text-center mb-6 text-blue-600 ">Project</h2>
             <div className="flex flex-wrap justify-center">

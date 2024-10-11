@@ -33,10 +33,9 @@ const InfiniteScroll = () => {
     }, []);
 
     return (
-        <div className="bg-black min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden">
+        <div className="bg-black  flex flex-col items-center justify-center p-4 overflow-hidden">
             <h1 className="text-blue-600 text-3xl md:text-4xl lg:text-5xl mb-4">My Skills</h1>
 
-            {/* Skill List Scroller */}
             <div className="scroller" data-speed="fast">
                 <ul className="tag-list scroller__inner flex gap-4 p-4">
                     <li className="bg-blue-600 text-white rounded-md p-2 text-sm sm:text-base md:text-lg lg:text-xl">
@@ -75,7 +74,6 @@ const InfiniteScroll = () => {
                 </ul>
             </div>
 
-            {/* Image Scroller */}
             <div className="scroller" data-direction="right" data-speed="slow">
                 <div className="scroller__inner flex gap-4 p-4">
                     <img className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain" src="/mndb.png" alt="MongoDB" />
@@ -91,9 +89,7 @@ const InfiniteScroll = () => {
                 </div>
             </div>
 
-            <a className="text-blue-400 underline mt-4" href="https://youtu.be/pKHKQwAsZLI">
-                Watch the tutorial
-            </a>
+            
         </div>
     );
 };
