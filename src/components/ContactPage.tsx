@@ -3,7 +3,7 @@ import React from 'react'
 function ContactPage() {
   return (
     <>
-    <section className="py-10 bg-black text-white">
+    <section className="py-10 bg-black text-white ">
             <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Contact Me</h2>
             <form className="max-w-md mx-auto">
                 <input type="text" placeholder="Your Name" className="w-full p-2 mb-4 border rounded bg-slate-600" />

@@ -4,7 +4,7 @@ import React from 'react'
 function FooterPage() {
     return (
         <>
-            <footer className="footer bg-neutral text-neutral-content items-center p-4">
+            <footer className="footer bg-neutral text-neutral-content items-center p-4 ">
                 <aside className="grid-flow-col items-center">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
