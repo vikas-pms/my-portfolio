@@ -33,7 +33,7 @@ function NavbarPage() {
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 bg-clip-text text-transparent font-sans">Vikas`&apos;`s Portfolio</a>
+                    <a className="btn btn-ghost text-xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 bg-clip-text text-transparent font-sans">Vikas&apos;s Portfolio</a>
 
                 </div>
                 <div className="navbar-center hidden lg:flex ">
