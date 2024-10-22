@@ -33,10 +33,10 @@ const InfiniteScroll = () => {
     }, []);
 
     return (
-        <div className="bg-black  flex flex-col items-center justify-center p-4 overflow-hidden">
+        <div id="skill" className="bg-black  flex flex-col items-center justify-center p-4 overflow-hidden">
             <h1 className="text-blue-600 text-3xl md:text-4xl lg:text-5xl mb-4">My Skills</h1>
 
-            <div className="scroller" data-speed="fast">
+            <div className="scroller" data-speed="slow">
                 <ul className="tag-list scroller__inner flex gap-4 p-4">
                     <li className="bg-blue-600 text-white rounded-md p-2 text-sm sm:text-base md:text-lg lg:text-xl">
                         HTML

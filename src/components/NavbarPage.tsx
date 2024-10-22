@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 function NavbarPage() {
@@ -26,23 +27,23 @@ function NavbarPage() {
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-gray-400  rounded-box z-[1] mt-3 w-52 p-2 shadow text-black"
                         >
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Skill</a></li>
-                            <li><a>Experience</a></li>
-                            <li><a>Contact</a></li>
+                            <li> <Link href={"/"}>Home</Link></li>
+                            <li><Link href="#about">About</Link></li>
+                            <li><Link href="#skill">Skill</Link></li>
+                            <li><Link href="#experience">Project</Link></li>
+                            <li><Link href="#contact">Contact</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 bg-clip-text text-transparent font-sans">Vikas&apos;s Portfolio</a>
+                    <Link href={"/"} className="btn btn-ghost text-xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 bg-clip-text text-transparent font-sans">Vikas&apos;s Portfolio</Link>
 
                 </div>
                 <div className="navbar-center hidden lg:flex ">
                     <ul className="bg-gray-400  flex gap-10">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Skill</a></li>
-                        <li><a>Experience</a></li>
-                        <li><a>Contact</a></li>
+                    <li> <Link href={"/"}>Home</Link></li>
+                            <li><Link href="#about">About</Link></li>
+                            <li><Link href="#skill">Skill</Link></li>
+                            <li><Link href="#experience">Project</Link></li>
+                            <li><Link href="#contact">Contact</Link></li>
                     </ul>
                 </div>
 
